@@ -247,7 +247,7 @@ GNI_NA=GNI2014[GNI2014$continent=='North America',]
 treemap(GNI_NA,index=c("country"),vSize="population",vColor="population",type="value",bg.labels="yellow")
 
 # There is no way to make the image in circles, so I had to find another way to do so as shown below. 
-# Not sure if this is what you want. (https://www.r-graph-gallery.com/308-interactive-circle-packing.html)
+# Not sure if this is what you want. reference - > (https://www.r-graph-gallery.com/308-interactive-circle-packing.html)
 
 install.packages("ggiraph")
 install.packages("packcircles")
@@ -281,7 +281,6 @@ cat("The three main sections are header, text, and code_chunks")
 
 'r 3 + 4'
 
-
 #3. Sharing Reports as Websites
 # 
 # (1) Create the repo - 'Movie_Review' on your github.
@@ -289,7 +288,7 @@ cat("The three main sections are header, text, and code_chunks")
 #     https://https://github.com/peppibook/Movie_Review/
 # (3) Execute the 'index.Rmd' (RMarkdown file) by clicking the 'knit' button.
 # (4) Push 'apikey.R', 'exercise.R', 'index.Rmd', 'index.html' into your repo - Movie_Review.
-# (5) On the web portal page for your repo, click on the ?€œSettings?€? tab, and scroll down to the section labeled ?€œGitHub Pages.?€?
-# (6) Select the ?€œmaster branch?€? option to enable GitHub Pages. (See 18.4 Sharing Reports as Websites in the textbook)
+# (5) On the web portal page for your repo, click on the ???Settings??? tab, and scroll down to the section labeled ???GitHub Pages.???
+# (6) Select the ???master branch??? option to enable GitHub Pages. (See 18.4 Sharing Reports as Websites in the textbook)
 
 # Thank you!
